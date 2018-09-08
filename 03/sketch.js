@@ -95,68 +95,68 @@ function draw() {
   //Marciano
   if (frameCount > 250) {
     beginShape();
-    fill(109, 181, 45)
-    vertex((width / 2) - 215, (height / 2) + 164)
-    vertex((width / 2) - 215, (height / 2) + 248)
-    vertex((width / 2) - 48, (height / 2) + 248)
-    vertex((width / 2) - 48, (height / 2) + 331)
-    vertex((width / 2) - 215, (height / 2) + 331)
-    vertex((width / 2) - 215, (height / 2) + 248)
-    vertex((width / 2) - 299, (height / 2) + 248)
-    vertex((width / 2) - 299, (height / 2) - 84)
-    vertex((width / 2) - 383, (height / 2) - 84)
-    vertex((width / 2) - 383, (height / 2) - 81)
-    vertex((width / 2) - 299, (height / 2) - 81)
-    vertex((width / 2) - 299, (height / 2) - 164)
-    vertex((width / 2) - 215, (height / 2) - 164)
-    vertex((width / 2) - 215, (height / 2) - 248)
-    vertex((width / 2) - 132, (height / 2) - 248)
-    vertex((width / 2) - 132, (height / 2) - 164)
-    vertex((width / 2) + 133, (height / 2) - 164)
-    vertex((width / 2) + 133, (height / 2) - 248)
-    vertex((width / 2) + 216, (height / 2) - 248)
-    vertex((width / 2) + 216, (height / 2) - 164)
-    vertex((width / 2) + 300, (height / 2) - 164)
-    vertex((width / 2) + 300, (height / 2) - 81)
-    vertex((width / 2) + 383, (height / 2) - 81)
-    vertex((width / 2) + 383, (height / 2) - 84)
-    vertex((width / 2) + 299, (height / 2) - 84)
-    vertex((width / 2) + 299, (height / 2) + 248)
-    vertex((width / 2) + 215, (height / 2) + 248)
-    vertex((width / 2) + 215, (height / 2) + 331)
-    vertex((width / 2) + 48, (height / 2) + 331)
-    vertex((width / 2) + 48, (height / 2) + 248)
-    vertex((width / 2) + 215, (height / 2) + 248)
-    vertex((width / 2) + 215, (height / 2) + 164)
+    fill(93, random(0,255), 45);
+    vertex((width / 2) - 215, (height / 2) + 164);
+    vertex((width / 2) - 215, (height / 2) + 248);
+    vertex((width / 2) - 48, (height / 2) + 248);
+    vertex((width / 2) - 48, (height / 2) + 331);
+    vertex((width / 2) - 215, (height / 2) + 331);
+    vertex((width / 2) - 215, (height / 2) + 248);
+    vertex((width / 2) - 299, (height / 2) + 248);
+    vertex((width / 2) - 299, (height / 2) - 84);
+    vertex((width / 2) - 383, (height / 2) - 84);
+    vertex((width / 2) - 383, (height / 2) - 81);
+    vertex((width / 2) - 299, (height / 2) - 81);
+    vertex((width / 2) - 299, (height / 2) - 164);
+    vertex((width / 2) - 215, (height / 2) - 164);
+    vertex((width / 2) - 215, (height / 2) - 248);
+    vertex((width / 2) - 132, (height / 2) - 248);
+    vertex((width / 2) - 132, (height / 2) - 164);
+    vertex((width / 2) + 133, (height / 2) - 164);
+    vertex((width / 2) + 133, (height / 2) - 248);
+    vertex((width / 2) + 216, (height / 2) - 248);
+    vertex((width / 2) + 216, (height / 2) - 164);
+    vertex((width / 2) + 300, (height / 2) - 164);
+    vertex((width / 2) + 300, (height / 2) - 81);
+    vertex((width / 2) + 383, (height / 2) - 81);
+    vertex((width / 2) + 383, (height / 2) - 84);
+    vertex((width / 2) + 299, (height / 2) - 84);
+    vertex((width / 2) + 299, (height / 2) + 248);
+    vertex((width / 2) + 215, (height / 2) + 248);
+    vertex((width / 2) + 215, (height / 2) + 331);
+    vertex((width / 2) + 48, (height / 2) + 331);
+    vertex((width / 2) + 48, (height / 2) + 248);
+    vertex((width / 2) + 215, (height / 2) + 248);
+    vertex((width / 2) + 215, (height / 2) + 164);
     endShape();
 
-    rect((width / 2) - 383, (height / 2) - 81, 84, 167)
-    rect((width / 2) + 298, (height / 2) - 81, 84, 167)
-    rect((width / 2) - 299, (height / 2) - 331, 83, 83)
-    rect((width / 2) + 216, (height / 2) - 331, 83, 83)
+    rect((width / 2) - 383, (height / 2) - 81, 84, 167);
+    rect((width / 2) + 298, (height / 2) - 81, 84, 167);
+    rect((width / 2) - 299, (height / 2) - 331, 83, 83);
+    rect((width / 2) + 216, (height / 2) - 331, 83, 83);
     push();
     fill(0);
-    rect((width / 2) - 215, (height / 2) - 81, 83, 83)
-    rect((width / 2) + 133, (height / 2) - 81, 83, 83)
+    rect((width / 2) - 215, (height / 2) - 81, 83, 83);
+    rect((width / 2) + 133, (height / 2) - 81, 83, 83);
     pop();
     if (frameCount > 250 && frameCount < 300) {
-      rect((width / 2) - 466, (height / 2) - 242, 83, 247)
-      rect((width / 2) + 383, (height / 2), 83, 247)
+      rect((width / 2) - 466, (height / 2) - 242, 83, 247);
+      rect((width / 2) + 383, (height / 2), 83, 247);
     } else if (frameCount > 300 && frameCount < 320) {
-      rect((width / 2) - 466, (height / 2), 83, 247)
-      rect((width / 2) + 383, (height / 2) - 242, 83, 247)
+      rect((width / 2) - 466, (height / 2), 83, 247);
+      rect((width / 2) + 383, (height / 2) - 242, 83, 247);
     } else if (frameCount > 320 && frameCount < 340) {
-      rect((width / 2) - 466, (height / 2) - 242, 83, 247)
-      rect((width / 2) + 383, (height / 2), 83, 247)
+      rect((width / 2) - 466, (height / 2) - 242, 83, 247);
+      rect((width / 2) + 383, (height / 2), 83, 247);
     } else if (frameCount > 340 && frameCount < 360) {
-      rect((width / 2) - 466, (height / 2), 83, 247)
-      rect((width / 2) + 383, (height / 2) - 242, 83, 247)
+      rect((width / 2) - 466, (height / 2), 83, 247);
+      rect((width / 2) + 383, (height / 2) - 242, 83, 247);
     } else if (frameCount > 360 && frameCount < 380) {
-      rect((width / 2) - 466, (height / 2) - 242, 83, 247)
-      rect((width / 2) + 383, (height / 2), 83, 247)
+      rect((width / 2) - 466, (height / 2) - 242, 83, 247);
+      rect((width / 2) + 383, (height / 2), 83, 247);
     } else if (frameCount > 380 && frameCount < 400) {
-      rect((width / 2) - 466, (height / 2), 83, 247)
-      rect((width / 2) + 383, (height / 2) - 242, 83, 247)
+      rect((width / 2) - 466, (height / 2), 83, 247);
+      rect((width / 2) + 383, (height / 2) - 242, 83, 247);
     }
   }
   
