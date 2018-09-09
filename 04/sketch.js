@@ -304,6 +304,7 @@ function draw() {
         arc(mouseX, mouseY, 80, 80, PI, (3 * PI) / 2);
         pop();
       } else if (herSelec == 7) {
+        stroke(0);
         ellipse(mouseX, mouseY, 40, 40);
         line(mouseX, mouseY, mouseX, mouseY - 20);
         line(mouseX, mouseY, mouseX + 12, mouseY + 14);
