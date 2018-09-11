@@ -278,7 +278,7 @@ function draw() {
     //Posibles herramientas
     if (mouseY > 60 && mouseY < height - 40) {
       if (herSelec == 1) {
-        line(width / 2, height / 2, mouseX, mouseY);
+        line(width / 4, height / 4, mouseX, mouseY);
       } else if (herSelec == 2) {
         line(mouseX, mouseY, mouseY, mouseX);
       } else if (herSelec == 3) {
