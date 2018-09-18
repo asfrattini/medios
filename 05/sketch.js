@@ -1,11 +1,9 @@
 //Variables que me dan el color del fondo segun la hora del dia
 
-var colorMadrugada = (254, 59, 1);
-var colorManana = (252, 140, 1);
-var colorMedioDia = (254, 226, 3);
-var colorTarde = (47, 125, 158);
-var colorTardeNoche = (11, 35, 148);
-var colorNoche = (3, 19, 79);
+var r = 0;
+var g = 0;
+var b = 0;
+
 
 //Variables de horas
 var horas;
@@ -17,17 +15,16 @@ var outfit = 0;
 function setup() {
   createCanvas(800, 800);
 
-
 }
 
 function draw() {
 
-
+  background(r, g, b);
 
   //Posibilidad de poner la hora manualmente, quitar el comentario de la segunda linea y comentar la primera
 
-  horas = hour();
-  //horas = 14;
+  //horas = hour();
+  horas = 6
 
   //Print que imprime la hora actual para poder ubicarse en el tiempo durante el dia\
   print(horas);
@@ -43,44 +40,64 @@ function draw() {
   if (horas >= 1 && horas < 7) {
     outfit = 1;
 
-    //Fondo elegido
-    background(colorNoche);
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 3
+    g = 19
+    b = 79
+
 
   } else if (horas >= 7 && horas < 8) {
     outfit = 2;
 
-    //Fondo elegido
-    background(colorMadrugada);
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 254
+    g = 59
+    b = 1
+
 
   } else if (horas >= 8 && horas < 12) {
     outfit = 3;
 
-    //Fondo elegido
-    background(colorManana);
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 252
+    g = 140
+    b = 1
 
   } else if (horas >= 12 && horas < 14) {
     outfit = 4;
 
-    //Fondo elegido
-    background(colorMedioDia)
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 254
+    g = 226
+    b = 3
 
   } else if (horas >= 14 && horas < 17) {
     outfit = 3;
 
-    //Fondo elegido
-    background(colorTarde)
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 47
+    g = 125
+    b = 158
 
   } else if (horas >= 17 && horas < 19) {
     outfit = 5;
 
-    //Fondo elegido
-    background(colorTardeNoche)
+    //Defino las variables que me dan el color del Fondo elegido
+    r = 47
+    r = 11
+    g = 35
+    b = 148
 
   } else if (horas >= 19 && horas <= 24) {
     outfit = 1;
 
-    //Fondo elegido
-    background(colorNoche);
+
+    //Defino las variables que me dan el color del Fondo elegido
+
+    r = 3
+    g = 19
+    b = 79
+
 
   }
 
@@ -245,20 +262,20 @@ function draw() {
     fill(0)
     rect(-10, 549, 29, 266)
     rect(-8, 661, 262, 147)
-    
+
     //Almohada
     fill(255)
     ellipse(58, 642, 80, 35)
-    
+
     //Cobija
     rect(105, 661, 148, 147)
-    
+
     //Texto Bed
     fill(0)
     textSize(50)
     text("BED", 125, 750)
     pop()
-    
+
   } else if (outfit == 2) {
 
     //Cuerpoo lado izquierdo con camiseta rosada
