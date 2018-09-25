@@ -1,6 +1,7 @@
 //Variables fotos emojis
 var fotoFox;
 var fotoTurtle;
+var gifNombre;
 
 //Cancion
 var cancion;
@@ -37,6 +38,7 @@ function preload() {
   cancion = loadSound("Musica/cancion.mp3")
   fotoFox = loadImage("Imagenes/fox.png")
   fotoTurtle = loadImage("Imagenes/Turtle_Emoji.png")
+  gifNombre = loadImage("Imagenes/giphy.gif")
 }
 
 function setup() {
@@ -79,6 +81,8 @@ function setup() {
   //Pone los dos emojis en la parte de abajo
   image(fotoTurtle, 750, 647, 45.6, 45.6)
   image(fotoFox, 941, 647, 45.6, 45.6)
+  image(gifNombre, 25, 647, 100, 50)
+  
 
   //Crea el slider de la velocidad
   velocidad = createSlider(0.5, 1.5, 1, 0.01)
