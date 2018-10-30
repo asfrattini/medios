@@ -10,5 +10,4 @@ Ejercicios de la clase diseño en medios interactivos de Anna Sofía Frattini
 7. [Ecosistema](https://asfrattini.github.io/mediosInteractivos/07)
 8. [Ecosistema con interacciones](https://asfrattini.github.io/mediosInteractivos/08)
 9. [Primera Iteración Juego P5JS](https://editor.p5js.org/as.frattini/full/H1tequr27)
-
 9.1. [Primera Iteración Juego Github](https://asfrattini.github.io/mediosInteractivos/09)
