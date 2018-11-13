@@ -70,6 +70,33 @@ var monedita;
 //Fuente
 var fuente;
 
+  
+//Cantidad de obstaculos para los arreglos
+var numPeces;
+var numPeces2;
+var numPeces3;
+
+var numPuercos2;
+var numPuercos3;
+
+var pared2X;
+var pared2Y;
+var pared2YD; 
+var pared2XD; 
+
+var pared3X; 
+var pared3Y; 
+var pared3XD; 
+var pared3YD; 
+
+
+//Cantidad de paredes nivel 2
+var numPared2 
+var numPared2D 
+var numPared3 
+var numPared3D 
+
+
 
 //Booleano para determinar si el puffle tiene o no el gorrito
 var tieneGorro = false;
@@ -123,28 +150,29 @@ function setup() {
 
   
 //Cantidad de obstaculos para los arreglos
-var numPeces = 15;
-var numPeces2 = 20;
+ numPeces = 15;
+ numPeces2 = 20;
+ numPeces3 = 15;
 
-var numPuercos2 = 5;
-var numPuercos3 = 8;
+ numPuercos2 = 5;
+ numPuercos3 = 8;
 
-var pared2X = 0;
-var pared2Y = -4095.75;
-var pared2YD = -3956;
-var pared2XD = 699.311;
+ pared2X = 0;
+ pared2Y = -4095.75;
+ pared2YD = -3956;
+ pared2XD = 699.311;
 
-var pared3X = 0;
-var pared3Y = -4095.803;
-var pared3XD = 699.311;
-var pared3YD = -3956;
+ pared3X = 0;
+ pared3Y = -4095.803;
+ pared3XD = 699.311;
+ pared3YD = -3956;
 
 
 //Cantidad de paredes nivel 2
-var numPared2 = 19;
-var numPared2D = 19;
-var numPared3 = 19;
-var numPared3D = 19;
+ numPared2 = 19;
+ numPared2D = 19;
+numPared3 = 19;
+ numPared3D = 19;
 
   
   
@@ -169,7 +197,7 @@ var numPared3D = 19;
 
   rango2 = 4872 / numPeces2;
 
-  rango3 = 4872 / numPeces;
+  rango3 = 4872 / numPeces3;
 
   rangoPuerco = 4872 / numPuercos2;
 
